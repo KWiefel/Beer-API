@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Home.scss";
 import img1 from "./../img/bild1.jpg";
 import img2 from "./../img/bild2.png";
-
+import Navbar from "./../components/Navbar";
 const Home = () => {
   return (
     <main className="main_home">
@@ -26,6 +26,7 @@ const Home = () => {
           </p>
         </div>
       </Link>
+      <Navbar />
     </main>
   );
 };

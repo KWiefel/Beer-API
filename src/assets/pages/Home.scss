@@ -7,6 +7,12 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color: white;
+
+  height: 700px;
+  overflow: scroll;
+  margin-top: 3%;
+
   a {
     text-decoration: none;
     color: inherit;
