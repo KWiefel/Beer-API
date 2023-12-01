@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import "./Home.scss";
+import img1 from "./../img/bild1.jpg";
+import img2 from "./../img/bild2.png";
 
 const Home = () => {
   return (
     <main className="main_home">
       <Link to="/list">
         <div className="card__wrapper">
-          <img
-            src="src/assets/img/christin-hume-08tX2fsuSLg-unsplash.jpg"
-            alt="pic"
-          />
+          <img src={img1} alt="pic" />
           <h2>All Beers</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
@@ -19,10 +18,7 @@ const Home = () => {
       </Link>
       <Link to="/random">
         <div className="card__wrapper">
-          <img
-            src="src/assets/img/proriat-hospitality-flENqflm6xU-unsplash.png"
-            alt="pic"
-          />
+          <img src={img2} alt="pic" />
           <h2>Random Beer</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
